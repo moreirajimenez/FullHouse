@@ -1,13 +1,13 @@
-<p class="mensagem">Generate yours voucher with ease. Choose the amount and the number of digits you desire.</p>
+<p class="mensagem">Generate your voucher with ease. Choose the amount and the number of digits you desire.</p>
 
 <div ng-controller="VoucherController">
     <form novalidate name="voucherForm" class="form_voucher" ng-submit="geraVoucher(form)">
         
         <label class="form">Qtd:</label><br>
-        <input ng-model="form.qtd" class="inp_form required" type="text" required/><br>
+        <input ng-model="form.qtd" class="inp_form required" type="text" required/><br><br>
         
         <label class="form">Number of digits:</label><br>
-        <input ng-model="form.dgt" class="inp_form required" type="text" required/><br>
+        <input ng-model="form.dgt" class="inp_form required" type="text" required/><br><br>
         
         <input type="submit" value="submit" class="enviar" />
         <br>

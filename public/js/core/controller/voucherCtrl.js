@@ -1,7 +1,7 @@
 app.controller("VoucherController", function ($scope, $sce, voucherService){
-    $scope.validaVoucher = function(form){
+    $scope.geraVoucher = function(form){
         if (validaForm(form)){
-            validaService.submit(form);
+            voucherService.submit(form);
         }
     };
     function validaForm (form){
