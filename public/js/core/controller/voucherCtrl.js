@@ -1,5 +1,6 @@
 app.controller("VoucherController", function ($scope, $sce, $http){
     $scope.resultado = "";
+    
     $scope.geraVoucher = function(form){
        console.log(form);
         if (validaForm(form)){
@@ -14,6 +15,7 @@ app.controller("VoucherController", function ($scope, $sce, $http){
       });
         }
     };
+    
     function validaForm (form){
         console.log(form);
         if (form.qtd === '' && form.dgt === '')

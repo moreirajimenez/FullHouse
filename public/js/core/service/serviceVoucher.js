@@ -1,4 +1,4 @@
-app.service("voucherService", function($location, $http, $scope){
+/*app.service("voucherService", function($location, $http, $scope){
     return {submit: function (dados){
       console.log(dados);
       $http({
@@ -11,4 +11,4 @@ app.service("voucherService", function($location, $http, $scope){
           $scope.resultado = retorno;
       });
     }};
-});
+});*/
