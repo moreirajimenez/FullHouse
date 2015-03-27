@@ -1,3 +1,16 @@
+.ng-invalid.ng-pristine {
+    border-color: #FA787E;
+}
+
+.ng-invalid.ng-dirty {
+    border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+    border-color: #78FA89;
+}
+
+
 .content{
     height: 300px;
     width: 591px;
@@ -19,4 +32,13 @@
 
 .radio{
     margin-left: -67px;
+}
+
+.inp_form{
+margin-left: 0px;
+width: 167px;								
+background: transparent url(../img/input-text.png) repeat-x; 
+border: 1px solid #999; 
+outline:0; 
+height:25px; 
 }
