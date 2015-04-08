@@ -15,18 +15,10 @@ app.controller("VoucherController", function ($scope, $sce, $http){
         });
         }
         }
-        else{
+        else if (form.output === "csv") {
             console.log(form);
             if (validaForm(form)){
                 window.location.href = "../application/download.php?qtd="+form.qtd+"&dgt="+form.dgt;
-        /*$http({
-          method: "post",
-          url: "../application/download.php",
-          data: form
-          //headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-        }).success(function(retorno){
-          console.log (retorno);
-        });*/
             }
         }
         

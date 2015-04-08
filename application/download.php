@@ -35,5 +35,5 @@ while ($total<$i){
     }
     
 
-fputcsv($output, arrays_keys($voucher));
+fputcsv($output, $voucher);
 fclose($output);

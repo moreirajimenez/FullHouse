@@ -13,12 +13,13 @@
 
 .content{
     height: 300px;
-    width: 591px;
+    width: 616px;
     background: #eee;
     position: absolute;
     margin: -150px 0 0 -278px;
     left: 50%;
-    top: 50%;
+    top: 41%;
+    border-style: ridge;
 }
 
 .form_voucher{
@@ -35,10 +36,23 @@
 }
 
 .inp_form{
-margin-left: 0px;
-width: 167px;								
-background: transparent url(../img/input-text.png) repeat-x; 
-border: 1px solid #999; 
-outline:0; 
-height:25px; 
+    margin-left: 0px;
+    width: 167px;								
+    background: transparent url(../img/input-text.png) repeat-x; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:25px; 
+}
+
+.enviar{
+    margin-left: 58px;
+}
+
+.mensagem{
+    margin-left: 19px;
+}
+
+h1{
+    margin-left: 43%;
+    margin-top: 6%;
 }
